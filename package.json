@@ -4,13 +4,13 @@
   "description": "This repository contains simple example of jest testing framework configuration for angular app.",
   "main": "index.js",
   "dependencies": {
-    "angular": "1.6.4",
+    "angular": "^1.8.2",
     "angular-ui-router": "1.0.3",
-    "lodash": "4.17.4"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "angular-mocks": "1.6.4",
-    "jest": "20.0.4"
+    "jest": "^26.6.3"
   },
   "scripts": {
     "test": "jest",
