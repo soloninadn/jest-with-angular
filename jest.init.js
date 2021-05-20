@@ -18,6 +18,7 @@ require('controllers/additional.controller.js');
 require('controllers/home.controller.js');
 require('controllers/page1.controller.js');
 require('controllers/page2.controller.js');
+require('controllers/withdrawalManage.controller.js');
 
 require('components/myHeader/myHeader.directive.js');
 require('components/myFooter/myFooter.component.js');

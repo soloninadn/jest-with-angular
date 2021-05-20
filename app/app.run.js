@@ -7,7 +7,7 @@
             $state
         ) => {
             $state.defaultErrorHandler((error) => {
-                console.log(error);
+                // console.log(error);
             });
         });
 
