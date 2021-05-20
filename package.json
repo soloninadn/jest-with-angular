@@ -1,0 +1,31 @@
+{
+  "name": "template-jest-with-angular",
+  "version": "1.0.0",
+  "description": "This repository contains simple example of jest testing framework configuration for angular app.",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "1.6.4",
+    "angular-ui-router": "1.0.3",
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.6.4",
+    "jest": "20.0.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --runInBand"
+  },
+  "author": "Pavel Shlykov",
+  "license": "ISC",
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "moduleDirectories": [
+      "node_modules",
+      "app"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/jest.init.js"
+  }
+}
