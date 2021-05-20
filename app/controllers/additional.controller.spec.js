@@ -15,8 +15,8 @@ describe('AdditionalController', function() {
     });
 
     describe('check $scope', function() {
-        xit('should equal', function() {
-            expect($scope.additionalMessage).toEqual('additional message');
+        it('should equal', function() {
+            expect($scope.additionalMessage).toEqual(123);
         });
     });
 });
